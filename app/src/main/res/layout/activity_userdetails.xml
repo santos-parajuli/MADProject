@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp"
+
+    tools:context="com.example.madproject.UserDetailsActivity">
+
+    <ImageView
+        android:id="@+id/userImageView"
+        android:src="@drawable/profile"
+        android:layout_width="169dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Profile Picture" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_marginTop="50dp" android:layout_gravity="center"
+        android:id="@+id/done"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:text="Done"
+        android:textColor="@color/white" />
+</LinearLayout>

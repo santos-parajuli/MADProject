@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MADProject</string>
+    <string name="home">Home</string>
+    <string name="uploadUser">Upload</string>
+    <string name="profile">Profile</string>
+</resources>
